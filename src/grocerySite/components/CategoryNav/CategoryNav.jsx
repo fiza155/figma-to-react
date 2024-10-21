@@ -73,12 +73,12 @@ function CategoryNav() {
           />
         </button>
 
-        {/* Dropdown for smaller screens */}
+{/* mbl screen */}
         {isDropdownOpen && (
           <div
             ref={dropdownRef}
             className="absolute mt-2 bg-white border rounded-md shadow-lg w-48 z-50"
-            style={{ top: "100%", left: "0" }} // Adjust positioning
+            style={{ top: "100%", left: "0" }} // Adjust position
           >
             {navItems.map(({ href, text }) => (
               <a
